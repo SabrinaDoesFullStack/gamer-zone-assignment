@@ -506,4 +506,17 @@ nav {
     flex-direction: column;
   }
 }
+
+@media screen and (min-width:576px) and (max-width:960px) {
+  .container, .banner, .teams, .free-games, .child{
+    flex-direction: column;
+  }
+  .banner, .teams{
+    flex-direction: column-reverse;
+  }
+  .online-games-part{
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+  }
+}
   

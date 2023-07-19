@@ -144,6 +144,7 @@ text-transform: uppercase;
   padding-left: 100px;
   padding-right: 50px;
 }
+  
 .team-head{
   font-size: 40px;
   font-weight: 700;
@@ -184,7 +185,7 @@ text-transform: uppercase;
 }
 .team-pic{
   width: 800px;
-  height: 470px;
+  height: 470px; 
 }
 /* end main part 2 */
 
@@ -220,10 +221,6 @@ text-transform: uppercase;
 }
 .game-des{
   margin-top: 10px;
-}
-.video-play{
- 
-
 }
 
 /* end main part 3 */
@@ -296,7 +293,7 @@ text-transform: uppercase;
 .child-pic{
  width: 700px;
   background-color: #FF42A5;
-}
+} 
 
 
 
@@ -306,7 +303,7 @@ text-transform: uppercase;
 /* end main section 5 */
 
 /* last main section */
-.game-icons{
+ .game-icons{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -337,8 +334,8 @@ text-transform: uppercase;
 .game-container:hover{
   border: 2px solid #F948B2;
   color: #F948B2;
-  border-radius: 50px;
-}
+  border-radius: 50px; 
+} 
 /* end last main section */
 
 /* footer section */
@@ -386,7 +383,7 @@ text-transform: uppercase;
   font-weight: 500;
 }
 /* end footer section */
- 
+  
 
 
 
@@ -404,66 +401,10 @@ text-transform: uppercase;
 
 
 
-@media screen and (max-width:576px) {
-  .container, .menu, .free-games{
+@media screen and (max-width:425px) {
+  .container{
+    display: flex;
     flex-direction: column;
-    justify-content: center;
-  }
-  .navbar{
-    margin-top: 50px;
-    text-align: center;
-    margin-left: 150px;
-  }
-  .menu{
-    margin-right: 70px;
-    margin-top: 20px;
-  }
-  .item{
-    margin-top: 30px;
-  }
-  .design{
-    margin-top: 30px; 
-  }
-  nav{
-    box-shadow: none;
-  }
-  .banner{
-    flex-direction: column-reverse;
-     margin-bottom: 80px;
-  }
-  .first-head{
-    margin-top: 50px;
-  }
-  .teams{
-    flex-direction: column-reverse;
-    margin-bottom: 50px;
-  }
-  .team-pic{
-    width: 500px;
-    height: 400px;
-    padding-right: 20px;
-  }
-  .online-games-part{
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .game-des{
-    margin-bottom: 20px;
-  }
-  .middle-head{
-    font-size: 25px;
-  }
-  .funny{
-    font-size: 25px;
-  }
-  .middle-des{
-    font-size: 15px;
   }
   
-  .horse-pic{
-    width: 300px;
-  }
-  .game-icons{
-    grid-template-columns: repeat( 3,1fr);
-    width: 80%;
-  }
 }

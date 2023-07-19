@@ -267,10 +267,43 @@ text-transform: uppercase;
 /* end main section 4 */
 
 /* main section 5 */
-/* end main section 5 */
+.child{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(images/Group\ 14.png);
+  margin: 0;
+  background-color: #FF42A5;
+  color: white;
+  padding-left: 100px; 
+}
+.career-menu{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  list-style: none;
+}
+.career-btn{
+  margin-top: 30px;
+  border-style: none;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 48px;
+  background-color: white;
+  color: #FF42A5;
+  padding: 15px 30px;
+}
+.child-pic{
+ width: 700px;
+  background-color: #FF42A5;
+}
 
-/* main section 6 */
-/* end main section 6  */
+
+
+
+
+
+/* end main section 5 */
 
 /* last main section */
 .game-icons{
@@ -279,7 +312,7 @@ text-transform: uppercase;
   align-items: center;
   flex-wrap: wrap;
   padding: 50px;
-  width: 1000px;
+  width: 1100px;
   margin: 0 auto;
 }
 
@@ -288,6 +321,8 @@ text-transform: uppercase;
   justify-content: center;
   align-items: center;
   margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .icon-img{
   width: 50px;

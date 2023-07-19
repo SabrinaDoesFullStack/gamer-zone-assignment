@@ -73,6 +73,8 @@ nav{
   padding-top: 20px;
   padding-left: 150px;
   padding-right: 150px;
+  background-image: url(images/Group\ 14.png);
+  background-repeat: no-repeat;
 }
 .first-head{
   color: #0B0223;
@@ -226,7 +228,7 @@ text-transform: uppercase;
 
 /* end main part 3 */
 
-/* main section 4 */
+/*start main section 4 */
 .free-games{
   display: flex;
   justify-content: space-around;
@@ -234,7 +236,6 @@ text-transform: uppercase;
   padding-top: 20px;
   padding-left: 150px;
   padding-right: 100px;
-  padding-bottom: 80px;
 }
 .horse-pic{
   width: 450px;
@@ -250,7 +251,105 @@ text-transform: uppercase;
   font-weight: 300;
   color: #534C64;
 }
-/* main section 4 */
+.angela{
+  width: 150px;
+  position: relative;
+  bottom: 180px;
+  right:  80px;
+  border-radius: 8px;
+  border: 5px solid #FFF;
+  
+  
+}
+.angela-pic{
+  width: 200px;
+}
+/* end main section 4 */
+
+/* main section 5 */
+/* end main section 5 */
+
+/* main section 6 */
+/* end main section 6  */
+
+/* last main section */
+.game-icons{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  padding: 50px;
+}
+.game-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-img{
+  width: 50px;
+  height: 50px;
+}
+.last-game-container{
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  font-size: 15px;
+}
+.game-title{
+  font-size: 15px;
+  margin-left: 10px;
+  font-weight: bolder;
+}
+.game-container:hover{
+  border: 2px solid #F948B2;
+  color: #F948B2;
+  border-radius: 50px;
+}
+/* end last main section */
+
+/* footer section */
+.footer-container{
+ background-color: black;
+ color: white;
+ padding: 80px;
+}
+.footer-head{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-bottom: 50px;
+}
+.footer-mid{
+  display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+ margin-bottom: 50px;
+}
+.footer-img{
+   display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-bottom: 50px;
+}
+.media-img{
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+}
+.footer-end{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.last-des{
+  font-size: 12px;
+  color: darkgray;
+  font-weight: 400;
+}
+.footer-des{
+  font-size: 15px;
+  color: darkgray;
+  font-weight: 500;
+}
+/* end footer section */
  
 
 
@@ -270,7 +369,7 @@ text-transform: uppercase;
 
 
 @media screen and (max-width:576px) {
-  .container, .menu{
+  .container, .menu, .free-games{
     flex-direction: column;
     justify-content: center;
   }
@@ -324,4 +423,10 @@ text-transform: uppercase;
     font-size: 15px;
   }
   
+  .horse-pic{
+    width: 300px;
+  }
+  .game-icons{
+    grid-template-columns: repeat( 3,1fr);
+  }
 }

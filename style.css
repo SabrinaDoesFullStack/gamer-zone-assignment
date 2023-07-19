@@ -143,7 +143,7 @@ text-transform: uppercase;
   padding-right: 50px;
 }
 .team-head{
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 700;
   background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
   background-clip: text;
@@ -184,6 +184,73 @@ text-transform: uppercase;
   width: 800px;
   height: 470px;
 }
+/* end main part 2 */
+
+/* start main part 3 */
+.middle-container{
+  text-align: center;
+}
+.middle-head{
+  font-size: 40px;
+  font-weight: 700;
+}
+.funny{
+  margin-left: 10px;
+}
+.middle-des{
+  font-size: 15px;
+  font-weight: 400;
+  color: #534C64;
+}
+.online-games-part{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  padding: 50px;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 80px;
+  
+}
+.games-pic{
+  width: 280px;
+  height: 400px; 
+}
+.game-des{
+  margin-top: 10px;
+}
+.video-play{
+ 
+
+}
+
+/* end main part 3 */
+
+/* main section 4 */
+.free-games{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 150px;
+  padding-right: 100px;
+  padding-bottom: 80px;
+}
+.horse-pic{
+  width: 450px;
+}
+.play{
+  font-size: 35px;
+}
+.no-download{
+  font-size: 38px;
+}
+.play-des{
+  font-size: 15px;
+  font-weight: 300;
+  color: #534C64;
+}
+/* main section 4 */
  
 
 
@@ -240,6 +307,21 @@ text-transform: uppercase;
     width: 500px;
     height: 400px;
     padding-right: 20px;
+  }
+  .online-games-part{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .game-des{
+    margin-bottom: 20px;
+  }
+  .middle-head{
+    font-size: 25px;
+  }
+  .funny{
+    font-size: 25px;
+  }
+  .middle-des{
+    font-size: 15px;
   }
   
 }

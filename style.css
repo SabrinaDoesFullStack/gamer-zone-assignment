@@ -1,62 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap");
+* {
   margin: 0;
-  font-family: 'Work Sans', sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
 }
 
 /* start heading part */
- 
-nav{
-  background: #FFF;
+
+nav {
+  background: #fff;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
   padding: 30px;
 }
-.container{
+.container {
   display: flex;
   align-items: center;
-  justify-content: space-around;  
+  justify-content: space-around;
 }
-.navbar{
+.navbar {
   display: flex;
   justify-content: left;
   align-items: center;
-  margin-right: 150px; 
-  
+  margin-right: 150px;
 }
-.head{
+.head {
   margin-left: 10px;
 }
-.menu{
+.menu {
   display: flex;
   align-items: center;
   justify-content: space-around;
   list-style: none;
 }
-.item{
+.item {
   margin-left: 30px;
   font-size: 18px;
   font-weight: 500;
-  color: #3C354F;
+  color: #3c354f;
 }
-.design{
+.design {
   padding: 15px;
   border-radius: 8px;
-  background: rgba(11, 2, 35, 0.10);
+  background: rgba(11, 2, 35, 0.1);
 }
-.for-color{
-  color: #FF42A5;
+.for-color {
+  color: #ff42a5;
   font-size: 45px;
   font-weight: 700;
 }
-.head{
-   font-size: 45px;
+.head {
+  font-size: 45px;
   font-weight: 700;
 }
-.logo-pic{
+.logo-pic {
   width: 80px;
   height: 40px;
 }
-.icon{
+.icon {
   width: 30px;
   height: 20px;
   text-align: center;
@@ -66,254 +67,258 @@ nav{
 /* end heading part */
 
 /* start main part 1 */
-.banner{
+.banner {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding-top: 20px;
   padding-left: 150px;
   padding-right: 150px;
+}
+
+.banner-container {
   background-image: url(images/Group\ 14.png);
   background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
-.first-head{
-  color: #0B0223;
-  text-align: center;
-font-size: 48px;
-font-weight: 600;
-text-transform: uppercase;
-}
-.big-head{
-  text-align: center;
-font-family: Work Sans;
-font-size: 95px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-text-transform: uppercase;
- background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
- background-clip: text;
- -webkit-background-clip: text;
- -webkit-text-fill-color: transparent;
-}
-.img{
-  width: 500px;
-}
-.banner-list{
-  color: #534C64;
- font-size: 15px;
- font-weight: 500;
- line-height: normal;
- text-transform: lowercase;
- list-style: none;
-}
-.list-item{
-  margin-top: 10px;
-}
-.first-btn{
-  color: #FFF;
- font-size: 15px;
- font-weight: 500;
- background-color: #F948B2;
- border-style: none;
- border-radius: 48px;
- padding: 10px;
- width: 100px;
- margin-left: 40px;
-}
-.end-btn{
-   color: #FFF;
-   font-size: 15px;
-   font-weight: 500;
-   background-color:  #4EC5F7;
-   border-style: none;
-   border-radius: 48px;
-   padding: 10px;
-   width: 100px;
-   margin-left: 10px;
-}
-/* end main section 1 */
 
-/* start main section 2 */
-.teams{
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-around;
-  align-items: center;
-  padding-top: 40px ;
-  padding-left: 100px;
-  padding-right: 50px;
+.first-head {
+  color: #0b0223;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
-  
-.team-head{
-  font-size: 40px;
-  font-weight: 700;
-  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+.big-head {
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 95px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.team-des{
-  color: #534C64;
-  font-size: 15px;
-  font-weight: 400;
+.img {
+  width: 500px;
 }
-.team-btn{
-  color: #FFF;
+.banner-list {
+  color: #534c64;
   font-size: 15px;
-  font-weight: 600;
-  background-color: #F948B2;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: lowercase;
+  list-style: none;
+}
+.list-item {
+  margin-top: 10px;
+}
+.first-btn {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #f948b2;
   border-style: none;
   border-radius: 48px;
   padding: 10px;
-  width: 150px;
+  width: 100px;
+  margin-left: 40px;
+}
+.end-btn {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #4ec5f7;
+  border-style: none;
+  border-radius: 48px;
+  padding: 10px;
+  width: 100px;
+  margin-left: 10px;
+}
+/* end main section 1 */
+
+/* start main section 2 */
+.teams {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 50px;
+}
+
+.team-container {
+  text-align: center;
+}
+
+.team-head {
+  font-size: 40px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.team-des {
+  color: #534c64;
+  font-size: 15px;
+  font-weight: 400;
+}
+.team-btn {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #f948b2;
+  border-style: none;
+  border-radius: 48px;
+  padding: 15px;
   margin-top: 20px;
-  margin-left: 250px;
+  text-transform: capitalize;
 }
-.end-des{
- color: #534C64;
- margin-left: 260px;
- font-size: 18px;
- font-weight: 500;
- margin-top: 10px;
- padding-top: 10px;
+.end-des {
+  color: #534c64;
+  margin-left: 260px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+  padding-top: 10px;
 }
-.end-team-head{
-  color: #534C64;
+.end-team-head {
+  color: #534c64;
   font-size: 25px;
   font-weight: 700;
 }
-.team-pic{
+.team-pic {
   width: 800px;
-  height: 470px; 
+  height: 470px;
 }
 /* end main part 2 */
 
 /* start main part 3 */
-.middle-container{
+.middle-container {
   text-align: center;
 }
-.middle-head{
+.middle-head {
   font-size: 40px;
   font-weight: 700;
 }
-.funny{
+.funny {
   margin-left: 10px;
 }
-.middle-des{
+.middle-des {
   font-size: 15px;
   font-weight: 400;
-  color: #534C64;
+  color: #534c64;
 }
-.online-games-part{
+.online-games-part {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   padding: 50px;
   margin-top: 20px;
   margin-left: 50px;
   margin-right: 50px;
   padding-left: 80px;
-  
 }
-.games-pic{
+.games-pic {
   width: 280px;
-  height: 400px; 
+  height: 400px;
 }
-.game-des{
+.game-des {
   margin-top: 10px;
 }
 
 /* end main part 3 */
 
 /*start main section 4 */
-.free-games{
+.free-games {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   padding-top: 20px;
   padding-left: 150px;
   padding-right: 100px;
 }
-.horse-pic{
+.horse-pic {
   width: 450px;
 }
-.play{
+.play {
   font-size: 35px;
 }
-.no-download{
+.no-download {
   font-size: 38px;
 }
-.play-des{
+.play-des {
   font-size: 15px;
   font-weight: 300;
-  color: #534C64;
+  color: #534c64;
 }
-.angela{
-  width: 150px;
+.angela {
   position: relative;
   bottom: 180px;
-  right:  80px;
-  border-radius: 8px;
-  border: 5px solid #FFF;
-  
-  
+  right: 80px;
 }
-.angela-pic{
+.angela-pic {
   width: 200px;
 }
+
+.angela_two {
+  position: relative;
+  bottom: 180px;
+  right: -80%;
+}
+
 /* end main section 4 */
 
 /* main section 5 */
-.child{
+.child {
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-image: url(images/Group\ 14.png);
   margin: 0;
-  background-color: #FF42A5;
+  background-color: #ff42a5;
   color: white;
-  padding-left: 100px; 
+  padding-left: 100px;
+  background-repeat: no-repeat;
 }
-.career-menu{
+.career-menu {
   margin-top: 20px;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   list-style: none;
 }
-.career-btn{
+.career-btn {
   margin-top: 30px;
   border-style: none;
   font-size: 15px;
   font-weight: 500;
   border-radius: 48px;
   background-color: white;
-  color: #FF42A5;
+  color: #ff42a5;
   padding: 15px 30px;
 }
-.child-pic{
- width: 700px;
-  background-color: #FF42A5;
-} 
-
-
-
-
-
+.child-pic {
+  width: 700px;
+  background-color: #ff42a5;
+}
 
 /* end main section 5 */
 
 /* last main section */
- .game-icons{
+.game-icons {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   padding: 50px;
-  width: 1100px;
+  width: 80%;
   margin: 0 auto;
 }
 
-.game-container{
+.game-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -321,68 +326,74 @@ text-transform: uppercase;
   padding-left: 10px;
   padding-right: 10px;
 }
-.icon-img{
+.icon-img {
   width: 50px;
   height: 50px;
 }
 
-.game-title{
+.game-title {
   font-size: 15px;
   margin-left: 10px;
   font-weight: bolder;
 }
-.game-container:hover{
-  border: 2px solid #F948B2;
-  color: #F948B2;
-  border-radius: 50px; 
-} 
+.game-container:hover {
+  border: 2px solid #f948b2;
+  color: #f948b2;
+  border-radius: 50px;
+}
 /* end last main section */
 
 /* footer section */
-.footer-container{
- background-color: black;
- color: white;
- padding: 80px;
+.footer-container {
+  background-color: black;
+  color: white;
+  padding: 80px;
 }
-.footer-head{
- display: flex;
- align-items: center;
- justify-content: center;
- margin-bottom: 50px;
-}
-.footer-mid{
+.footer-head {
   display: flex;
- align-items: center;
- justify-content: space-evenly;
- margin-bottom: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
 }
-.footer-img{
-   display: flex;
- align-items: center;
- justify-content: center;
- margin-bottom: 50px;
+.footer-mid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
 }
-.media-img{
+.footer-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.media-img {
   width: 25px;
   height: 25px;
   margin-right: 20px;
 }
-.footer-end{
+.footer-end {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.last-des{
+.last-des {
   font-size: 12px;
   color: darkgray;
   font-weight: 400;
 }
-.footer-des{
+.footer-des {
   font-size: 15px;
-  color: darkgray;
+  color: white;
   font-weight: 500;
+  margin-right: 20px;
+}
+
+.last-des-footer {
+  color: rgba(255, 255, 255, 0.6);
 }
 /* end footer section */
+
   
 
 
@@ -395,16 +406,104 @@ text-transform: uppercase;
 
 
 
-
-
-
-
-
-
-@media screen and (max-width:425px) {
-  .container{
-    display: flex;
+@media screen and (max-width:425px)  {
+  html {
+    overflow-x: hidden;
+  }
+  .navbar {
+    padding-left: 50px;
+  }
+  .container,
+  .menu {
     flex-direction: column;
   }
-  
+
+  .banner {
+    flex-direction: column-reverse;
+  }
+
+  .banner-pic img {
+    width: 400px;
+    height: auto;
+  }
+
+  .banner-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .banner-content {
+    padding: 110px;
+  }
+  .first-btn {
+    margin-left: 0;
+  }
+
+  .end-btn {
+    margin-left: 0;
+  }
+
+  .first-head {
+    font-size: 28px;
+  }
+
+  .big-head {
+    font-size: 50px;
+  }
+
+  .teams {
+    flex-direction: column-reverse;
+  }
+
+  .team-pic {
+    width: 400px;
+    height: auto;
+  }
+
+  .teams .end-des {
+    margin-left: 0;
+  }
+
+  .online-games-part {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 0;
+  }
+
+  .free-games {
+    flex-direction: column;
+  }
+
+  .child {
+    flex-direction: column;
+  }
+
+  .horse-pic {
+    width: 300px;
+    height: auto;
+  }
+
+  .second-free-games {
+    padding-left: 0;
+  }
+
+  .angela-pic {
+    width: 100px;
+  }
+
+  .angela{
+    bottom: 80px;
+  }
+
+  .angela_two {
+    bottom: 80px;
+  }
+
+  .child-pic {
+    width: 300px;
+    height: auto;
+  }
+
+  .footer-mid {
+    flex-direction: column;
+  }
 }
+  
